@@ -33,7 +33,7 @@ class Component {
                 rootElement.setAttribute(attr.name, attr.value);
             }
         }
-        document.createElement(this.hookId).append(rootElement);
+        document.getElementById(this.hookId).append(rootElement);
         return rootElement;
     }
 }
